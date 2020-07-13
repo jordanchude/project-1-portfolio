@@ -10,6 +10,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Incomplete
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 2| TBD | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -78,7 +79,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Google Contact Form API | H | 1hr | -hr | -hr|
 | Desktop Nav Bar | H | .5hr | -hr | -hr|
 | Desktop Skill Layout | H | 1hr | -hr | -hr|
-| Total | H | 10.4hrs| -hrs | -hrs |
+| Projects JSON Implementation | H | 2hr | -hr | -hr|
+| Total | H | 12.4hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |

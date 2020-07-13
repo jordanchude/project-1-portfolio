@@ -28,7 +28,7 @@ Your work must:
 - Site must be created using a "mobile first" approach. 
 - A Git repository, hosted on your personal GitHub, that includes a link to your hosted site. Site URL should be in the form of githubusername.github.io. 
 - Repo must contain frequent commits (min 15+) dating back to the beginning of the project.
-- An updated project workshheet will all sections filled out accordingly. 
+- An updated project worksheet will all sections filled out accordingly. 
 - An in-class demo of the site that shows off the interactions you worked on.
 - A mobile nav that expands and collapses when a user clicks on the hamburger icon.
 
