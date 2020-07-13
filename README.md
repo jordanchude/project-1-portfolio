@@ -69,7 +69,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invested |
-| --- | :---: |  :---: | :---: | :---: |
+| --- | :---: |  :---: | :---: |
 | Design Research | H | 1hr | .5hr |
 | Wireframing | H | 2hr | 2.5hr |
 | Bootstrap | H | 3hr | -hr |
@@ -91,7 +91,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted |
-| --- | :---: |  :---: | :---: | :---: |
+| --- | :---: |  :---: | :---: |
 | Podcast Clips Grid | M | 1hr | -hr |
 | Podcast Clips Mobile/Tablet Media Query | M | 2hr | -hr |
 | Footer with Dynamically Sized Text | L | 1hr | -hr |
