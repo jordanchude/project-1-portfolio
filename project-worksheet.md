@@ -42,8 +42,8 @@ Include link to your google sheet here.  Here is the sample [Suresh had used in 
 
 ## Time/Priority Matrix 
 
-- [Matrix](https://res.cloudinary.com/dpjdvsigb/image/upload/v1594586701/time-priority-matrix_hv3wvd.jpg)
-- [Key](https://res.cloudinary.com/dpjdvsigb/image/upload/v1594586839/key_xrpkzw.jpg)
+- [Matrix](https://res.cloudinary.com/dpjdvsigb/image/upload/v1594662251/time-priority-matrix_ckruwd.jpg)
+- [Key](https://res.cloudinary.com/dpjdvsigb/image/upload/v1594662251/key_vhw3gb.jpg)
 
 ### MVP/PostMVP - 5min
 
