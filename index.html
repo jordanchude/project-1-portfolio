@@ -19,30 +19,34 @@
 
     <!-- User Javascript -->
     <script src="script.js" defer></script>
-    <title>Hello, world!</title>
+    <title>Jordan Williams Personal Website</title>
   </head>
   <body>
   <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Jordan Williams</a>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">JORDAN WILLIAMS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Projects</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link active" href="#hero">ABOUT<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#projects">PROJECTS</a>
+            <a class="nav-item nav-link nav-contact" href="#contact-form">CONTACT</a>
         </div>
     </nav>
   <!-- navbar -->
 
   <main class="container-fluid">
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="hero">
         <div class="container">
           <h1 class="display-3">Jordan Williams</h1>
           <p class="lead">Podcast Host, Artist Management Consultant, Software Engineer</p>
+          <p>I have over five years of experience in the music industry and help artists and their managers make their next move. I hosted a podcast, the <i>Music Business Podcast</i>, where I interview industry professionals about their careers and shed more light on my own. Finally, I am a Software Engineer with an intense passion to help businesses and artists portray their brands in interesting and effective ways online.</p>
+          <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#contact-form" role="button">Let's work!</a>
+          </p>
         </div>
     </div>
 
@@ -92,7 +96,7 @@
         </div>  
       </div>
     </section>
-    <section class="projects-main">
+    <section class="projects-main" id="projects">
       <div class="row">
         <div class="col-12 projects-header">
           <h4>Projects</h4>
@@ -141,7 +145,7 @@
           </div> -->
       </div>
     </section>
-    <section class="row contact-form">
+    <section class="row" id="contact-form">
       <div class="col-6">
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQEE6qAHJ8NkYFCG2URPKploU4QLiTuR0q2mdsUxsKKMcsnw/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>

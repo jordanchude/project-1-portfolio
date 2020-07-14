@@ -3,12 +3,28 @@
     padding: 0;
 }
 
+/* navbar */
+.navbar {
+    background-color: #3b429f;
+}
+
+.navbar a {
+    color: white;
+}
+
+.nav-contact {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
 /* jumbotron */
 .jumbotron {
     background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg");
     background-size: cover;
+    color: white;
     height: 50vh;
     margin: 0;
+    text-align: center;
 }
 
 /* skills */
@@ -45,7 +61,7 @@
 }
 
 /* contact */
-.contact-form {
+#contact-form {
     background: #eeebd3;
     display: flex;
     justify-content: center;

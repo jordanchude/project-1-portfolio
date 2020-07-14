@@ -40,14 +40,12 @@ const app = (data) => {
 
         $div3.append($('<p class="card-text">').text(project.description));
 
-        $div3.append($('<a href="#" class="btn btn-primary">').text('View'))
+        //buttons
+        $div3.append($('<a href="#" class="btn btn-primary">').text('Preview'))
+        $div3.append($('<a href="#" class="btn btn-primary">').text('Code'))
 
         $('.projects-body').append($div);
-        // $div.append($('<img class="card-img-top">').attr('src', project.image));
-        // $div.append($('<h2>').text(project.title));
-        // $div.append($('<p>')).text(project.description);
-        // $div.append($('<a>').attr('href', 'project.url'));
-        // return $div; //return div to hold information for forEach below
+    
     }
     // $('body').append(createProjectElement(data[0]));
     data.forEach(project => {
