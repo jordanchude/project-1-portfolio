@@ -2,3 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+.hero-image {
+    background: url('https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg');
+    background-size: cover;
+    background-position: 0px -100px;
+    height: 40vh;
+}
