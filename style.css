@@ -7,6 +7,7 @@
 .jumbotron {
     background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg");
     background-size: cover;
+    height: 50vh;
     margin: 0;
 }
 
@@ -34,11 +35,24 @@
     text-align: center;
 }
 
+.project-card {
+    margin-bottom: 15px;
+}
+
+.projects-body {
+    display: flex;
+    justify-content: center;
+}
+
 /* media query */
 @media (min-width: 768px) {
     /* skills */
     .middle-skill {
         margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    /* projects */
+    .project-card {
         margin-bottom: 0px;
     }
 }
