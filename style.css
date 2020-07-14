@@ -1,3 +1,8 @@
+.root {
+    --purple: #3b429f;
+    --beige: #eeebd3;
+}
+
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -5,7 +10,7 @@
 
 /* navbar */
 .navbar {
-    background-color: #3b429f;
+    background-color: var(--purple);
 }
 
 .navbar a {
@@ -22,14 +27,22 @@
     background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg");
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     height: 50vh;
     margin: 0;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.jumbotron-button {
+    background: white;
 }
 
 /* skills */
 .skill-main {
-    background-color: #eeebd3;
+    background-color: var(--beige);
 }
 
 .skills-header {
