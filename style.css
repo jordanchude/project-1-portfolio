@@ -44,6 +44,19 @@
     justify-content: center;
 }
 
+/* contact */
+.contact-form {
+    background: #eeebd3;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* media query */
 @media (min-width: 768px) {
     /* skills */
