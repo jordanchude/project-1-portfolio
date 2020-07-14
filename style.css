@@ -7,3 +7,11 @@
     background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg");
     background-size: cover;
 }
+
+.skills-header {
+    text-align: center;
+}
+
+.skill-body {
+    margin: 0px 10px 0px 10px;
+}
