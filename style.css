@@ -1,4 +1,4 @@
-.root {
+:root {
     --purple: #3b429f;
     --beige: #eeebd3;
 }
@@ -24,8 +24,9 @@
 
 /* jumbotron */
 .jumbotron {
-    background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg");
+    background: url("https://res-console.cloudinary.com/dpjdvsigb/thumbnails/transform/v1/image/upload//v1594764618/Sm9yZGFuX0NodWRlX1dpbGxpYW1zX1ByZXNzX1Bob3RvX2hhbjQwMw==/drilldown");
     background-size: cover;
+    background-position: center;
     color: white;
     display: flex;
     flex-direction: row;
@@ -36,13 +37,22 @@
     text-shadow: 1px 1px 1px black;
 }
 
+.about {
+    display: none;
+}
+
 .jumbotron-button {
-    background: white;
+    background: var(--purple);
+    color: white;
+}
+
+.jumbotron-button:hover {
+    color: var(--beige);
 }
 
 /* skills */
 .skill-main {
-    background-color: var(--beige);
+    background: var(--beige);
 }
 
 .skills-header {
@@ -88,6 +98,12 @@
 
 /* media query */
 @media (min-width: 768px) {
+    /* jumbotron */
+    .about {
+        display: block;
+        font-size: 16px;
+    }
+    
     /* skills */
     .middle-skill {
         margin-top: 0px;
