@@ -3,9 +3,16 @@
     padding: 0;
 }
 
+/* jumbotron */
 .jumbotron {
     background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594733871/Jordan_Chude_Williams_Press_Photo_qwnyam.jpg");
     background-size: cover;
+    margin: 0;
+}
+
+/* skills */
+.skill-main {
+    background-color: #eeebd3;
 }
 
 .skills-header {
@@ -14,4 +21,24 @@
 
 .skill-body {
     margin: 0px 10px 0px 10px;
+    padding: 0px 0px 20px 0px;
+}
+
+.middle-skill {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* projects */
+.projects-header {
+    text-align: center;
+}
+
+/* media query */
+@media (min-width: 768px) {
+    /* skills */
+    .middle-skill {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
