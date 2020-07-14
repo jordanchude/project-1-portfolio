@@ -28,16 +28,30 @@ const app = (data) => {
     console.log(data);
 
     const createProjectElement = (project) => {
-        const $div = $('<div>');
-        $div.append($('<h2>').text(project.title));
-        $div.append($('<p>')).text(project.description);
-        $div.append($('<img>').attr('src', project.image));
-        $div.append($('<a>').attr('href', 'project.url'));
-        return $div; //return div to hold information for forEach below
+        const $div = $('<div class="col-md-6 col-lg-3">');
+        const $div2 = $('<div class="card project-card">');
+        $div.append($div2);
+        $div2.append($('<img class="card-img-top">').attr('src', project.image));
+        
+        const $div3 = $('<div class="card-body">');
+        $div2.append($div3);
+
+        $div3.append($('<h5 class="card-title">').text(project.title));
+
+        $div3.append($('<p class="card-text">').text(project.description));
+
+        $div3.append($('<a href="#" class="btn btn-primary">').text('View'))
+
+        $('.projects-body').append($div);
+        // $div.append($('<img class="card-img-top">').attr('src', project.image));
+        // $div.append($('<h2>').text(project.title));
+        // $div.append($('<p>')).text(project.description);
+        // $div.append($('<a>').attr('href', 'project.url'));
+        // return $div; //return div to hold information for forEach below
     }
     // $('body').append(createProjectElement(data[0]));
     data.forEach(project => {
         const $projectDiv = createProjectElement(project);
-        $('body').append($projectDiv);
+        $('.projects-body').append($projectDiv);
     })
 }
