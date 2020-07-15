@@ -26,7 +26,9 @@
   </head>
   <body>
   <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="row">
+    <div class="col">
+        <nav class="navbar navbar-expand-md navbar-dark">
         <a class="navbar-brand" href="#">JORDAN WILLIAMS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,23 +40,29 @@
             <a class="nav-item nav-link nav-contact active" href="#contact-form">CONTACT</a>
         </div>
     </nav>
+    </div>
+  </div>
   <!-- navbar -->
 
   <main class="container-fluid">
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid" id="hero">
-        <div class="container">
-          <h1 class="display-5">Jordan Williams</h1>
-          <p class="lead"><span class="SE">Software Engineer</span>, Podcast Host, Artist Management Consultant</p>
-          <p class="about">I have over five years of experience in the music industry and help artists and their managers make their next move. I host a podcast, the <i>Music Business Podcast</i>, where I interview industry professionals about their careers and shed more light on my own. Finally, I am a Software Engineer with an intense passion to help businesses and artists portray their brands in interesting and effective ways online.</p>
-          <p class="lead">
-              <a class="btn btn-md jumbotron-button" href="#contact-form" role="button">Let's work!</a>
-          </p>
-        </div>
+    <div class="row">
+      <div class="col">
+          <div class="jumbotron jumbotron-fluid" id="hero">
+              <div class="container">
+                <h1 class="display-5">Jordan Williams</h1>
+                <p class="lead"><span class="SE">Software Engineer</span>, Podcast Host, Artist Management Consultant</p>
+                <p class="about">I have over five years of experience in the music industry and help artists and their managers make their next move. I host a podcast, the <i>Music Business Podcast</i>, where I interview industry professionals about their careers and shed more light on my own. Finally, I am a Software Engineer with an intense passion to help businesses and artists portray their brands in interesting and effective ways online.</p>
+                <p class="lead">
+                    <a class="btn btn-md jumbotron-button" href="#contact-form" role="button">Let's work!</a>
+                </p>
+              </div>
+          </div>
+      </div>
     </div>
 
   <!-- skills -->
-  <section class="skill-main">
+  <section class="skill-main container-fluid">
       <div class="row">
         <div class="col-12 skills-header">
           <h3>Skills</h3>
@@ -107,7 +115,7 @@
         </div>  
       </div>
     </section>
-    <section class="projects-main" id="projects">
+    <section class="projects-main container-fluid" id="projects">
       <div class="row">
         <div class="col-12 projects-header">
           <h4>Projects</h4>
@@ -117,16 +125,17 @@
           
       </div>
     </section>
-    <section class="row" id="contact-form">
-      <div class="col-12 contact-div">
-          <form action="https://docs.google.com/forms/d/e/1FAIpQLSdwZWOZ4WMpSvgTguqVi40gJwCiY_lDHYGGFixdEcxdBmZxpA/formResponse" id="form" class="topBefore" id="mG61Hd" method="POST">
-            <input class="form-input" id="name" name="entry.2005620554" type="text" placeholder="NAME">
-            <input class="form-input" d="email" name="entry.1045781291" type="text" placeholder="E-MAIL">
-            <textarea class="form-input" id="message" name="entry.839337160" type="text" placeholder="MESSAGE"></textarea>
-            <input class="btn bg-primary text-white" id="submit" type="submit" value="SUBMIT">
-        
-          </form>
-      </div>
+    <section id="contact-form container-fluid">
+        <div class="row-fluid">
+            <div class="col-12 contact-div">
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLSdwZWOZ4WMpSvgTguqVi40gJwCiY_lDHYGGFixdEcxdBmZxpA/formResponse" id="form" class="topBefore" id="mG61Hd" method="POST">
+                  <input class="form-input" id="name" name="entry.2005620554" type="text" placeholder="NAME">
+                  <input class="form-input" id="email" name="entry.1045781291" type="text" placeholder="E-MAIL">
+                  <textarea class="form-input" id="message" name="entry.839337160" type="text" placeholder="MESSAGE"></textarea>
+                  <input class="btn bg-primary text-white" id="submit" type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
     </section>
   </main>
   <footer>
