@@ -17,11 +17,6 @@
     color: white;
 }
 
-.nav-contact {
-    border: 1px solid white;
-    border-radius: 50px;
-}
-
 /* jumbotron */
 .jumbotron {
     background: url("https://res-console.cloudinary.com/dpjdvsigb/thumbnails/transform/v1/image/upload//v1594764618/Sm9yZGFuX0NodWRlX1dpbGxpYW1zX1ByZXNzX1Bob3RvX2hhbjQwMw==/drilldown");
@@ -60,11 +55,17 @@
 
 .card {
     border: 3px solid var(--purple);
+    border-radius: 7px;
 }
 
 .skills-header {
+    color: var(--purple);
+    text-shadow: 1px 1px 1px white;
+}
+
+.skill-card-header {
+    background: var(--purple);
     color: white;
-    text-shadow: 1px 1px 1px black;
 }
 
 .skill-body {
@@ -78,6 +79,10 @@
 .middle-skill {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.list-group li {
+    border-style: none;
 }
 
 /* projects */
@@ -109,6 +114,12 @@
 
 /* media query */
 @media (min-width: 768px) {
+    /* navbar */
+    .nav-contact {
+        border: 1px solid white;
+        border-radius: 50px;
+    }
+
     /* jumbotron */
     .about {
         display: block;
