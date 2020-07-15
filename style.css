@@ -118,13 +118,30 @@
 .projects-buttons {
     margin-right: 10px;
 }
-/* contact */
-#contact-form {
+/* contact form */
+.contact-div {
     background: #eeebd3;
     display: flex;
     justify-content: center;
+    padding: 20px 0px 20px 0px;
 }
 
+form {
+    background: var(--purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    padding: 20px;
+    width: 25%;
+}
+
+.form-input {
+    border: 3px solid var(--beige);
+    margin-bottom: 20px;
+}
+
+/* footer */
 footer {
     align-items: center;
     background: var(--purple);
@@ -166,6 +183,7 @@ footer a:hover {
 
 /* media query */
 @media (min-width: 768px) {
+    
     /* navbar */
     .nav-contact {
         border: 1px solid white;
