@@ -16,7 +16,8 @@ fetch(url)  // starts the fetch process
                 title: entry.gsx$title.$t,
                 image: entry.gsx$image.$t,
                 description: entry.gsx$description.$t,
-                url: entry.gsx$url.$t
+                url: entry.gsx$url.$t,
+                preview: entry.gsx$preview.$t
              }
            })
         //    console.log(projects);
@@ -41,8 +42,8 @@ const app = (data) => {
         $div3.append($('<p class="card-text">').text(project.description));
 
         //buttons
-        $div3.append($('<a href="#" class="btn btn-primary">').text('Preview'))
-        $div3.append($('<a href="#" class="btn btn-primary">').text('Code'))
+        $div3.append($('<a class="btn btn-primary projects-buttons">').text('Preview').attr('href', project.preview))
+        $div3.append($('<a class="btn btn-primary projects-buttons">').text('Code').attr('href', project.url))
 
         $('.projects-body').append($div);
     

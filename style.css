@@ -19,7 +19,7 @@
 
 /* jumbotron */
 .jumbotron {
-    background: url("https://res-console.cloudinary.com/dpjdvsigb/thumbnails/transform/v1/image/upload//v1594764618/Sm9yZGFuX0NodWRlX1dpbGxpYW1zX1ByZXNzX1Bob3RvX2hhbjQwMw==/drilldown");
+    background: url("https://res.cloudinary.com/dpjdvsigb/image/upload/v1594764618/Jordan_Chude_Williams_Press_Photo_han403.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -53,7 +53,7 @@
     text-align: center;
 }
 
-.card {
+.skill-main .card {
     border: 3px solid var(--purple);
     border-radius: 7px;
 }
@@ -86,11 +86,23 @@
 }
 
 /* projects */
-.projects-header {
+.projects-main {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: var(--purple);
+}
+
+.projects-main .card {
+    border: 3px solid var(--beige);
+}
+.projects-header { 
+    color: var(--beige);
     text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 
 .project-card {
+    height: 95%;
     margin-bottom: 15px;
 }
 
@@ -99,6 +111,9 @@
     justify-content: center;
 }
 
+.projects-buttons {
+    margin-right: 10px;
+}
 /* contact */
 #contact-form {
     background: #eeebd3;
@@ -133,6 +148,6 @@
     }
     /* projects */
     .project-card {
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
 }
