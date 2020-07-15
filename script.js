@@ -42,8 +42,8 @@ const app = (data) => {
         $div3.append($('<p class="card-text">').text(project.description));
 
         //buttons
-        $div3.append($('<a class="btn btn-primary projects-buttons">').text('Preview').attr('href', project.preview))
-        $div3.append($('<a class="btn btn-primary projects-buttons">').text('Code').attr('href', project.url))
+        $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Preview').attr('href', project.preview))
+        $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Code').attr('href', project.url))
 
         $('.projects-body').append($div);
     
