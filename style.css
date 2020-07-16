@@ -135,8 +135,18 @@
     margin-right: 10px;
 }
 /* contact form */
+#contact-form {
+    background: var(--beige);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contact-header {
+    color: var(--purple);
+    text-shadow: 1px 1px 1px white;
+}
 .contact-div {
-    background: #eeebd3;
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
@@ -144,6 +154,7 @@
 
 form {
     background: var(--purple);
+    border-radius: 20px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
