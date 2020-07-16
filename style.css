@@ -1,8 +1,10 @@
+/* css variables */
 :root {
     --purple: #3b429f;
     --beige: #eeebd3;
 }
 
+/* bootstrap margin and padding resets */
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -48,6 +50,10 @@
     text-shadow: 1px 1px 1px black;
 }
 
+.jumbotron-titles {
+    font-size: 23px;
+}
+
 .about {
     display: none;
 }
@@ -59,10 +65,6 @@
 
 .jumbotron-button:hover {
     color: var(--beige);
-}
-
-.SE {
-    font-size: 1.5em;
 }
 
 /* skills */
@@ -115,6 +117,7 @@
 .projects-main .card {
     border: 3px solid var(--beige);
 }
+
 .projects-header { 
     color: var(--beige);
     text-align: center;
@@ -134,24 +137,8 @@
 .projects-buttons {
     margin-right: 10px;
 }
-/* contact form */
-#contact-form {
-    background: var(--beige);
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
 
-.contact-header {
-    color: var(--purple);
-    text-shadow: 1px 1px 1px white;
-}
-.contact-div {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px 20px 0px;
-}
-
+/* contact */
 form {
     background: var(--purple);
     border-radius: 20px;
@@ -168,6 +155,23 @@ form {
     margin-bottom: 20px;
 }
 
+.contact-header {
+    color: var(--purple);
+    text-shadow: 1px 1px 1px white;
+}
+.contact-div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+#contact-form {
+    background: var(--beige);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 /* footer */
 footer {
     align-items: center;
@@ -176,8 +180,8 @@ footer {
     display: grid;
     grid-template-rows: repeat(2, 50px);
     grid-template-columns: auto;
-    grid-template-areas: "instagram twitter linkedin"
-                         "footer-name footer-name footer-name";
+    grid-template-areas: "instagram twitter linkedin github"
+                         "footer-name footer-name footer-name footer-name";
     justify-content: center;
     text-align: center;
 }
@@ -206,6 +210,10 @@ footer a:hover {
 
 .fa-linkedin {
     grid-area: linkedin;
+}
+
+.fa-github {
+    grid-area: github;
 }
 
 /* media query */

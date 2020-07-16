@@ -43,7 +43,7 @@ const app = (data) => {
 
         //buttons
         $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Preview').attr('href', project.preview))
-        $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Code').attr('href', project.url))
+        $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Live').attr('href', project.url))
 
         $('.projects-body').append($div);
     
@@ -54,3 +54,6 @@ const app = (data) => {
         $('.projects-body').append($projectDiv);
     })
 }
+
+// $('.jumbotron').hide();
+// $('.jumbotron').fadeIn();
