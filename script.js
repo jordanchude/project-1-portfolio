@@ -70,7 +70,7 @@ $(document).on("scroll", function() {
            $(card).addClass("visible");
        }
     }
-    //if div is in frame, make div visible
+    // if div is in frame, make div visible
     if ($($contact).position().top < $pageBottom) {
         $($contact).addClass("visible");
     }
@@ -85,3 +85,11 @@ setInterval(function() {
 setInterval(function() {
     $('.jumbotron-button').addClass("visible");
 }, 1250);
+
+//smooth scroll when clicking buttons
+$(document).on('click', 'a[href^="#"]', function (e) {
+    e.preventDefault();
+    $('html, body').stop().animate({
+        scrollTop: $($(this).attr('href')).offset().top
+    }, 1500, 'swing');
+});

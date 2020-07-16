@@ -126,10 +126,6 @@
     background: var(--purple);
 }
 
-.projects-main .card {
-    border: 3px solid var(--beige);
-}
-
 .projects-header { 
     color: var(--beige);
     text-align: center;
@@ -139,6 +135,7 @@
 .project-card {
     height: 95%;
     margin-bottom: 15px;
+    border: 3px solid var(--beige);
 }
 
 .projects-body {
