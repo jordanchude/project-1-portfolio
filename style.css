@@ -218,7 +218,7 @@ footer a:hover {
 
 /* media query */
 @media (min-width: 768px) {
-    
+    /* navbar */
     navbar
     .nav-contact {
         border: 1px solid white;
@@ -236,6 +236,7 @@ footer a:hover {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    
     /* projects */
     .project-card {
         margin-bottom: 15px;

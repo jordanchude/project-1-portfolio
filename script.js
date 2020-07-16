@@ -9,25 +9,20 @@ let url = `https://spreadsheets.google.com/feeds/list/1RojHETPzn_xzL_3hOaI8kawOh
 
 fetch(url)  // starts the fetch process
        .then(response => response.json()) // returns the JSON data as a JS object
-       .then(data => {
-        //    console.log(data.feed.entry); //returns array of information
+       .then(data => { //returns array of information
            const projects = data.feed.entry.map(entry => {
             return { //returns new object with the following properties
-                title: entry.gsx$title.$t,
-                image: entry.gsx$image.$t,
-                description: entry.gsx$description.$t,
-                url: entry.gsx$url.$t,
-                preview: entry.gsx$preview.$t
+                title: entry.gsx$title.$t, //project title
+                image: entry.gsx$image.$t, //project image
+                description: entry.gsx$description.$t, //project description
+                url: entry.gsx$url.$t, //project url
+                preview: entry.gsx$preview.$t //project screenshot
              }
            })
-        //    console.log(projects);
-           app(projects);
+           app(projects); //call app function
        });
 
 const app = (data) => {
-    console.log('app is running!');
-    console.log(data);
-
     const createProjectElement = (project) => {
         const $div = $('<div class="col-md-6 col-lg-3">');
         const $div2 = $('<div class="card project-card">');
@@ -48,12 +43,9 @@ const app = (data) => {
         $('.projects-body').append($div);
     
     }
-    // $('body').append(createProjectElement(data[0]));
+    
     data.forEach(project => {
         const $projectDiv = createProjectElement(project);
         $('.projects-body').append($projectDiv);
     })
 }
-
-// $('.jumbotron').hide();
-// $('.jumbotron').fadeIn();
