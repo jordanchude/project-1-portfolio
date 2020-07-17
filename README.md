@@ -67,13 +67,13 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | --- | :---: |  :---: | :---: |
 | Design Research | H | 1hr | 1hr |
 | Wireframing | H | 2hr | 2.5hr |
-| Bootstrap Implementation | H | 3hr | 3.3hr |
+| Bootstrap Implementation | H | 3hr | 3hr |
 | Navigation Skeleton - Mobile, Tablet, and Desktop | H | 2hr | 1hr |
 | Hero Skeleton - Mobile, Tablet, and Desktop | M | 2hr | 1hr |
 | Skills Skeleton - Mobile, Tablet, and Desktop | H | 2hr | 1hr |
 | Projects Skeleton - Mobile, Tablet, and Desktop | M | 2hr| 1hr |
 | JSON Implementation | H | 2hr | 1hr |
-| Google Contact Form | H | 1hrs| 2.5hr |
+| Google Contact Form | H | 1hr| 2.5hr |
 | Navbar Styling | M | 1hr | 1hr |
 | Hero Styling | M | 1hr | 1hr |
 | Skill Styling | H | 1hr | 1hr |
@@ -82,7 +82,9 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | Footer Grid Layout | H | 2hr | 1hr |
 | Deployment | H | 2hr | .5hr |
 | Debugging | H | 3hr | 2hr |
-| Total | H | 27hrs| -hrs | -hrs |
+| Refactor | H | 2hr | 1hr |
+| Documentation | H | 1hr | .5hr |
+| Total | H | 33hrs| 24hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested |
@@ -94,7 +96,7 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | Footer with Dynamically Sized Text | L | 1hr | -hr |
 | Hero Carousel with images pulled from external API | L | 2hr | -hr |
 | Project Section Hover Responsiveness | L | 1hr | -hr |
-| Total | H | 9hrs| -hrs |
+| Total | H | 10hrs| 3hrs |
 
 ## Additional Libraries
  - Bootstrap
@@ -102,9 +104,28 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 ## Code Snippet
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+$(document).on("scroll", function() {
+    //variable to see how far down the page scrolled
+    var $pageTop = $(document).scrollTop();
+    var $pageBottom = $pageTop + $(window).height();
+    
+    //fade in classes set to variables
+    var $cards = $('.card');
+    var $contact = $('.contact-div');
+
+    //loop to see if card is in frame
+    for (let i = 0; i < $cards.length; i++) {
+        let card = $cards[i];
+        //if in frame, make card visible
+       if ($(card).position().top < $pageBottom) {
+           $(card).addClass("visible");
+       }
+    }
+    // if div is in frame, make div visible
+    if ($($contact).position().top < $pageBottom) {
+        $($contact).addClass("visible");
+    }
+});
 ```
 
 ## Issues and Resolutions
