@@ -38,8 +38,8 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 
 ## Time/Priority Matrix 
 
-- [Matrix](https://res.cloudinary.com/dpjdvsigb/image/upload/v1594662251/time-priority-matrix_ckruwd.jpg)
-- [Key](https://res.cloudinary.com/dpjdvsigb/image/upload/v1594662251/key_vhw3gb.jpg)
+- [Matrix](https://res.cloudinary.com/dpjdvsigb/image/upload/v1595014213/time-priority-matrix_qe6km8.jpg)
+- [Key](https://res.cloudinary.com/dpjdvsigb/image/upload/v1595014447/time-priority-matrix-key_fnqehg.jpg)
 
 #### MVP (examples)
 
