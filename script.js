@@ -87,6 +87,8 @@ setInterval(function() {
 }, 1250);
 
 //smooth scroll when clicking buttons
+// credit: https://dev.to/attacomsian/smooth-scroll-to-page-section-with-jquery-2jng#:~:text=Here%20is%20a%20little%20jQuery,This%20value%20is%20in%20milliseconds.
+
 $(document).on('click', 'a[href^="#"]', function (e) {
     e.preventDefault();
     $('html, body').stop().animate({
