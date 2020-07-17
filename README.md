@@ -17,11 +17,11 @@
 
 For my final website, as a top to bottom description, I am going to have a navigation bar with several links at the top of the page, with links pushed to the left of the navigation and myy name at the right of the description. At a certain width, the navigation bar will turn into a hamburger, with no links visible until the user hits the button.
 
-Under the navigation bar, I am going to have a hero section with a larger, horizontal-dimensioned photo of myself with the text "Jordan Williams" centered and "Podcast Host, Artist Management Consultant, Developer" under it. If I have time, I am going to use Javascript to fade those into the hero once the page has loaded.
+Under the navigation bar, I am going to have a hero section with a larger, horizontal-dimensioned photo of myself with the text "Jordan Williams" centered and "Podcast Host, Artist Management Consultant, Software" under it. If I have time, I am going to use Javascript to fade in the hero text, button, skills cards, and project cards, once they've been scrolled over.
 
-Under it, I plan on having three equally sized sections, size by side, that explain my skill set. One for web development, one for consulting, and one for designing. In each section, I'll have a list of what each of those skill sets can offer the viewer.
+Under it, I plan on having three equally sized sections, size by side, that explain my skill sets. One for web development, one for consulting, and one for designing. In each section, I'll have a list of what each of those skill sets can offer the user.
 
-Under that section, I want to use a grid-like format for web development projects with a screenshot of each project and a button under the screenshot to view on github pages. I also want to have the same format extend to a few Instagram videos from my podcast. 
+Under that section, I want to use a grid-like format for web development projects with a screenshot of each project and a button under the screenshot to view on Codepen. If I have time, I also want to have the same format extend to a few Instagram videos from my podcast. 
 
 Finally, I am going to have a google contact form and a footer at the bottom of the page with my social media links.
 
