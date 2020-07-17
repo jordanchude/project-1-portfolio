@@ -4,9 +4,10 @@
 // JSON link url
 // https://spreadsheets.google.com/feeds/list/1RojHETPzn_xzL_3hOaI8kawOhtHdEpOLU-eutpSLwTA/od6/public/values?alt=json
 
-
+// JSON
 let url = `https://spreadsheets.google.com/feeds/list/1RojHETPzn_xzL_3hOaI8kawOhtHdEpOLU-eutpSLwTA/od6/public/values?alt=json`
 
+// credit: https://git.generalassemb.ly/SEIR-629/JSON-and-jQuery
 fetch(url)  // starts the fetch process
        .then(response => response.json()) // returns the JSON data as a JS object
        .then(data => { //returns array of information
@@ -22,6 +23,7 @@ fetch(url)  // starts the fetch process
            app(projects); //call app function
        });
 
+//credit: https://git.generalassemb.ly/SEIR-629/JSON-and-jQuery
 const app = (data) => {
     const createProjectElement = (project) => {
         //columns
@@ -52,7 +54,6 @@ const app = (data) => {
 }
 
 // credit: https://www.superhi.com/blog/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll
-
 $(document).on("scroll", function() {
     //variable to see how far down the page scrolled
     var $pageTop = $(document).scrollTop();

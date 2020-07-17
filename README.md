@@ -6,10 +6,10 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 2| Bootstrap | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 2| Learn Bootstrap | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -44,13 +44,13 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 #### MVP (examples)
 
 - Create wireframe layouts for mobile, tablet, and desktop
-- Use HTML and CSS to create website hero, "Skills" "Projects", "Podcast Clips", and "Contact" sections
+- Use HTML and CSS to create website hero/"About" section, "Skills" "Projects", and "Contact" sections
 - Create navigation bar for desktop and hamburger menu for mobile navigation 
 - Use Javascript to make website dynamic with external API
-- Use Bootstrap and Flexbox to organize content in aesthetically pleasing way
+- Use Bootstrap, Flexbox, Grid to organize content in aesthetically pleasing way
 - Make website responsive for mobile, tablet, and desktop
 - Test website for complete responsiveness
-- Deploy website via GitHub pages
+- Deploy website via Netlify
 
 #### PostMVP 
 
@@ -62,41 +62,37 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 - Make footer text dynamic
 
 ## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evaluate game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
-
 #### MVP
 | Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: |
-| Design Research | H | 1hr | .5hr |
+| Design Research | H | 1hr | 1hr |
 | Wireframing | H | 2hr | 2.5hr |
-| Bootstrap | H | 3hr | -hr |
-| Mobile Hamburger Nav Bar | H | 1hr | -hr |
-| Website Hero & Text | M | 1hr | -hr |
-| Skills Section Mobile/Tablet Media Query | H | 2hr | -hr |
-| Desktop Project Section Grid | M | 1hr| -hr |
-| Project Section Mobile/Tablet Media Query | H | 2hr | -hr |
-| Project Section Buttons | M | 1hrs| -hr | -hr |
-| Google Contact Form API | H | 1hr | -hr | -hr|
-| Desktop Nav Bar | H | 1hr | -hr | -hr|
-| Desktop Skill Section Layout | H | 1hr | -hr | -hr|
-| Projects JSON Implementation | H | 2hr | -hr | -hr|
-| Mobile Testing and Troubleshooting | H | 2hr | -hr | -hr|
-| Tablet Testing and Troubleshooting | H | 2hr | -hr | -hr|
-| Desktop Testing and Troubleshooting | H | 2hr | -hr | -hr|
-| Deployment | H | 2hr | -hr | -hr|
+| Bootstrap Implementation | H | 3hr | 3.3hr |
+| Navigation Skeleton - Mobile, Tablet, and Desktop | H | 2hr | 1hr |
+| Hero Skeleton - Mobile, Tablet, and Desktop | M | 2hr | 1hr |
+| Skills Skeleton - Mobile, Tablet, and Desktop | H | 2hr | 1hr |
+| Projects Skeleton - Mobile, Tablet, and Desktop | M | 2hr| 1hr |
+| JSON Implementation | H | 2hr | 1hr |
+| Google Contact Form | H | 1hrs| 2.5hr |
+| Navbar Styling | M | 1hr | 1hr |
+| Hero Styling | M | 1hr | 1hr |
+| Skill Styling | H | 1hr | 1hr |
+| Projects Styling | H | 2hr | 1hr |
+| Form Styling | H | 1hr | 1hr | -hr|
+| Footer Grid Layout | H | 2hr | 1hr |
+| Deployment | H | 2hr | .5hr |
+| Debugging | H | 3hr | 2hr |
 | Total | H | 27hrs| -hrs | -hrs |
 
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invetsted |
+| Component | Priority | Estimated Time | Time Invested |
 | --- | :---: |  :---: | :---: |
-| Podcast Clips Grid | M | 1hr | -hr |
-| Podcast Clips Mobile/Tablet Media Query | M | 2hr | -hr |
+| Element Fade In Functionality | M | 2hr | 2hr |
+| Smooth Scrolling for Links | L | 1hr | .5hr |
+| Social Media Icons | L | 1hr | .5hr |
+| Podcast Clips Skeleton - Mobile, Tablet, and Desktop | M | 2hr | -hr |
 | Footer with Dynamically Sized Text | L | 1hr | -hr |
-| Div Fade In Event Listener | M | 2hr | -hr |
-| Hero Carousel with images pulled from external API | L | 1hr | -hr |
+| Hero Carousel with images pulled from external API | L | 2hr | -hr |
 | Project Section Hover Responsiveness | L | 1hr | -hr |
 | Total | H | 9hrs| -hrs |
 
