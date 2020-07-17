@@ -228,7 +228,6 @@ footer a:hover {
 /* media query */
 @media (min-width: 768px) {
     /* navbar */
-    navbar
     .nav-contact {
         border: 1px solid white;
         border-radius: 50px;

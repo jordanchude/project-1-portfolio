@@ -129,3 +129,7 @@ $(document).on("scroll", function() {
 ```
 
 ## Issues and Resolutions
+- In the navigation bar, the border around the 'CONTACT' link deformed when in the mobile hamburger. In response, I selected the link in a media query and removed the border altogether when the hamburger is active.
+- The description in the hero/"About" section is difficult to read on smaller screens and also pushed up the title, "Jordan Williams," off of frame. In response, if the page is smaller than 768 pixels, the description will be removed from the page.
+- In the "Projects" section, not all of the cards were of equal height after being created in jQuery, and it made the margins for each card react differently on different screens. In response, I made all of the cards of equal width and height for all screens so added margins around them would look identical for each card.
+- Connecting the Google Form backend to the website's form was difficult, with the biggest problem being that the form would not submit. Instead, it forwarded the user to the Google Form that the web form was connected to and have inputs pre-filled out but not submitted. In response, I used the Dev Tools in Google Chrome to look at the Google Form's HTML to make sure I used the correct attributes in my web form as opposed to originally looking at the Google Form's page source.
