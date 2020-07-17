@@ -102,7 +102,8 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
  - Bootstrap
 
 ## Code Snippet
-
+The code below fades in each of the website's cards and contact section when scrolled over.
+- [Source](https://www.superhi.com/blog/how-to-add-web-design-elements-that-fade-in-and-out-on-scroll)
 ```
 $(document).on("scroll", function() {
     //variable to see how far down the page scrolled
