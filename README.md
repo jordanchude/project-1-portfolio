@@ -99,7 +99,7 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | Total | H | 10hrs| 3hrs |
 
 ## Additional Libraries
- - [Bootstrap](https://getbootstrap.com/);
+ - [Bootstrap](https://getbootstrap.com/)
 
 ## Code Snippet
 The code below fades in each of the website's cards and contact section when scrolled over.
