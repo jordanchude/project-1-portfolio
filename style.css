@@ -145,6 +145,16 @@
 
 .projects-buttons {
     margin-right: 10px;
+    background: var(--main);
+    border-style: none;
+    color: white;
+}
+
+.projects-buttons:hover {
+    background: var(--secondary);
+    border: 1px solid var(--main);
+    color: var(--main);
+    margin-right: 10px;
 }
 
 /* contact */
@@ -172,6 +182,17 @@ form {
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
+}
+
+.contact-button {
+    background: var(--secondary);
+    color: var(--main);
+}
+
+.contact-button:hover {
+    background: var(--main);
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
 }
 
 #contact-form {
