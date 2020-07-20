@@ -1,5 +1,8 @@
 # Project Overview
 
+## Final Website
+- [Website](https://jordanspersonalportfolio.netlify.app/)
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
@@ -100,6 +103,8 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 
 ## Additional Libraries
  - [Bootstrap](https://getbootstrap.com/)
+ - [jQuery](https://jquery.com/)
+ - [Font Awesome](https://fontawesome.com/)
 
 ## Code Snippet
 The code below fades in each of the website's cards and contact section when scrolled over.
