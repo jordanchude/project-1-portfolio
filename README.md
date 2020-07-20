@@ -83,8 +83,8 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | Deployment | H | 2hr | .5hr |
 | Debugging | H | 3hr | 2hr |
 | Refactor | H | 2hr | 1hr |
-| Documentation | H | 1hr | .5hr |
-| Total | H | 33hrs| 28hrs |
+| Documentation | H | 1hr | 1.5hr |
+| Total | H | 33hrs| 29hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested |
