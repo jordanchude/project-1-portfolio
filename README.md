@@ -67,13 +67,13 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | --- | :---: |  :---: | :---: |
 | Design Research | H | 1hr | 1hr |
 | Wireframing | H | 2hr | 2.5hr |
-| Bootstrap Implementation | H | 3hr | 3hr |
+| Bootstrap Implementation | H | 3hr | 5hr |
 | Navigation Skeleton - Mobile, Tablet, and Desktop | H | 2hr | 1hr |
 | Hero Skeleton - Mobile, Tablet, and Desktop | M | 2hr | 1hr |
 | Skills Skeleton - Mobile, Tablet, and Desktop | H | 2hr | 1hr |
 | Projects Skeleton - Mobile, Tablet, and Desktop | M | 2hr| 1hr |
 | JSON Implementation | H | 2hr | 1hr |
-| Google Contact Form | H | 1hr| 2.5hr |
+| Google Contact Form | H | 1hr| 4.5hr |
 | Navbar Styling | M | 1hr | 1hr |
 | Hero Styling | M | 1hr | 1hr |
 | Skill Styling | H | 1hr | 1hr |
@@ -84,7 +84,7 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 | Debugging | H | 3hr | 2hr |
 | Refactor | H | 2hr | 1hr |
 | Documentation | H | 1hr | .5hr |
-| Total | H | 33hrs| 24hrs |
+| Total | H | 33hrs| 28hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested |
