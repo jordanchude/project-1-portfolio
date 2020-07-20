@@ -206,7 +206,7 @@ form {
 /* footer */
 footer {
     align-items: center;
-    background: var(--purple);
+    background: var(--main);
     color: white;
     display: grid;
     grid-template-rows: repeat(2, 50px);
@@ -222,7 +222,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--beige);
+    color: var(--secondary);
 }
 
 .footer-name {
