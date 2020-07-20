@@ -41,7 +41,7 @@ Finally, I am going to have a google contact form and a footer at the bottom of 
 - [Matrix](https://res.cloudinary.com/dpjdvsigb/image/upload/v1595014213/time-priority-matrix_qe6km8.jpg)
 - [Key](https://res.cloudinary.com/dpjdvsigb/image/upload/v1595014447/time-priority-matrix-key_fnqehg.jpg)
 
-#### MVP (examples)
+#### MVP
 
 - Create wireframe layouts for mobile, tablet, and desktop
 - Use HTML and CSS to create website hero/"About" section, "Skills" "Projects", and "Contact" sections
