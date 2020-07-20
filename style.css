@@ -57,13 +57,13 @@
     align-items: flex-end;
     justify-content: center;
     height: 50vh;
-    margin: 0;
+    padding: 0 0 2% 0;
     text-align: center;
     text-shadow: 1px 1px 1px black;
 }
 
 .jumbotron-titles {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .about {
@@ -256,6 +256,10 @@ footer a:hover {
     }
 
     /* jumbotron */
+    .jumbotron-titles {
+        font-size: 23px;
+    }
+
     .about {
         display: block;
         font-size: 16px;
