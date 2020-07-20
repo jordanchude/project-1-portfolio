@@ -94,7 +94,7 @@
 
 .skills-header {
     color: var(--main);
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
 }
 
 .skill-card-header {
@@ -176,7 +176,7 @@ form {
 
 .contact-header {
     color: var(--main);
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
 }
 .contact-div {
     display: flex;
