@@ -1,7 +1,7 @@
 /* css variables */
 :root {
-    --purple: #7511f6;
-    --beige: #FFFFFF;
+    --main: #7511f6;
+    --secondary: #FFFFFF;
 }
 
 /* bootstrap margin and padding resets */
@@ -39,7 +39,7 @@
 
 /* navbar */
 .navbar {
-    background-color: var(--purple);
+    background-color: var(--main);
 }
 
 .navbar a {
@@ -71,34 +71,34 @@
 }
 
 .jumbotron-button {
-    background: var(--purple);
+    background: var(--main);
     color: white;
 }
 
 .jumbotron-button:hover {
-    color: var(--beige);
+    color: var(--secondary);
 }
 
 /* skills */
 .skill-main {
-    background: var(--beige);
+    background: var(--secondary);
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
 }
 
 .skill-main .card {
-    border: 3px solid var(--purple);
+    border: 3px solid var(--main);
     border-radius: 7px;
 }
 
 .skills-header {
-    color: var(--purple);
+    color: var(--main);
     text-shadow: 1px 1px 1px white;
 }
 
 .skill-card-header {
-    background: var(--purple);
+    background: var(--main);
     color: white;
 }
 
@@ -123,11 +123,11 @@
 .projects-main {
     padding-top: 2%;
     padding-bottom: 2%;
-    background: var(--purple);
+    background: var(--main);
 }
 
 .projects-header { 
-    color: var(--beige);
+    color: var(--secondary);
     text-align: center;
     text-shadow: 1px 1px 1px black;
 }
@@ -135,7 +135,7 @@
 .project-card {
     height: 95%;
     margin-bottom: 15px;
-    border: 3px solid var(--beige);
+    border: 3px solid var(--secondary);
 }
 
 .projects-body {
@@ -149,7 +149,7 @@
 
 /* contact */
 form {
-    background: var(--purple);
+    background: var(--main);
     border-radius: 20px;
     display: inline-flex;
     flex-direction: column;
@@ -160,12 +160,12 @@ form {
 }
 
 .form-input {
-    border: 3px solid var(--beige);
+    border: 3px solid var(--secondary);
     margin-bottom: 20px;
 }
 
 .contact-header {
-    color: var(--purple);
+    color: var(--main);
     text-shadow: 1px 1px 1px white;
 }
 .contact-div {
@@ -175,7 +175,7 @@ form {
 }
 
 #contact-form {
-    background: var(--beige);
+    background: var(--secondary);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
