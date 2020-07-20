@@ -43,7 +43,7 @@ const app = (data) => {
 
         //buttons
         $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Preview').attr('href', project.preview))
-        $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Live').attr('href', project.url))
+        $div3.append($('<a class="btn btn-primary projects-buttons" target="_blank">').text('Codepen').attr('href', project.url))
     
     }
     
