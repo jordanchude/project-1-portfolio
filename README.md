@@ -14,12 +14,12 @@
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Complete
-|Day 6| Present | Incomplete
+|Day 6| Present | Complete
 
 
 ## Project Description
 
-For my final website, as a top to bottom description, I am going to have a navigation bar with several links at the top of the page, with links pushed to the left of the navigation and myy name at the right of the description. At a certain width, the navigation bar will turn into a hamburger, with no links visible until the user hits the button.
+For my final website, as a top to bottom description, I am going to have a navigation bar with several links at the top of the page, with links pushed to the left of the navigation and my name at the right of the description. At a certain width, the navigation bar will turn into a hamburger, with no links visible until the user hits the button.
 
 Under the navigation bar, I am going to have a hero section with a larger, horizontal-dimensioned photo of myself with the text "Jordan Williams" centered and "Podcast Host, Artist Management Consultant, Software" under it. If I have time, I am going to use Javascript to fade in the hero text, button, skills cards, and project cards, once they've been scrolled over.
 
