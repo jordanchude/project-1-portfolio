@@ -6,7 +6,7 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 2| Learn Bootstrap | Complete
+|Day 2| Bootstrap Implementation | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Complete
