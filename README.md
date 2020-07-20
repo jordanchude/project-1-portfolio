@@ -2,7 +2,7 @@
 
 ## Final Website
 - [Static Preview](https://github.com/jordanchude/project-1-portfolio/tree/master/final-preview)
-- [Live Website](https://jordanspersonalportfolio.netlify.app/)
+- [Live Website](https://jordanchude.netlify.app/)
 
 ## Project Schedule
 
